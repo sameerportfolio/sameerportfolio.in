@@ -1,0 +1,284 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Sameer.master.cs" Inherits="Sameer" %>
+
+<%--<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>--%>
+<!DOCTYPE html>
+<html lang="zxx">
+<head runat="server">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sameer - Portfolio</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+     <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <!-- CSS
+    ============================================ -->
+
+    <!-- Vendor CSS (Contain Bootstrap, Icon Fonts) -->
+   <%-- <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/icofont.min.css" />--%>
+
+    <!-- Plugin CSS (Global Plugins Files) -->
+    <%--<link rel="stylesheet" href="assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/venobox.min.css" />--%>
+
+    <!-- Style CSS -->
+    <%--<link rel="stylesheet" href="assets/css/style.css">--%>
+
+    <!-- Minify Version -->
+   <%-- <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">--%>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/6412aeb74247f20fefe631c7/1grkfl03r';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <main class="main-wrapper">
+            <header class="header-section sticky-header d-none d-lg-block">
+                <div class="header-wrapper">
+                    <div class="container">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col">
+                                <!-- Start Header Logo -->
+                                <a href="Default.aspx" class="header-logo">
+                                    <img src="assets/images/logo/logo2.png" style="max-width: 90%;" alt="">
+                                </a>
+                                <!-- End Header Logo -->
+                            </div>
+                            <div class="col-auto">
+                                <!-- Start Header Menu -->
+                                <ul class="header-nav">
+                                    <li><a href="Default.aspx">Home</a></li>
+
+                                    <li><a href="About-Us.aspx">About Us</a></li>
+                                    <li>
+                                        <a href="Project.aspx">Projects</a>
+                                    <li><a href="Contact.aspx">Contact</a></li>
+                                </ul>
+                                <!-- End Header Menu -->
+                            </div>
+                            <div class="col">
+                                <div class="header-btn-link text-end">
+                                    <a href="Contact.aspx" class="btn btn-sm btn-outline-one icon-space-left">Hire Me <i class="icofont-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="mobile-header d-block d-lg-none">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col">
+                            <div class="mobile-logo">
+                                <a href="Default.aspx">
+                                    <img src="assets/images/logo/logo2.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="mobile-action-link text-end">
+                                <a href="#mobile-menu-offcanvas" class="offcanvas-toggle offside-menu"><i class="icofont-navigation-menu"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-offcanvas" class="offcanvas offcanvas-rightside offcanvas-mobile-menu-section">
+                <!-- Start Offcanvas Header -->
+                <div class="offcanvas-header text-end">
+                    <button class="offcanvas-close"><i class="icofont-close-line"></i></button>
+                </div>
+                <!-- End Offcanvas Header -->
+                <!-- Start Offcanvas Mobile Menu Wrapper -->
+                <div class="offcanvas-mobile-menu-wrapper">
+                    <!-- Start Mobile Menu  -->
+                    <div class="mobile-menu-bottom">
+                        <!-- Start Mobile Menu Nav -->
+                        <div class="offcanvas-menu">
+                            <ul>
+                                <li>
+                                    <a href="Default.aspx"><span>Home</span></a>
+                                </li>
+                                <li>
+                                    <a href="About-Us.aspx"><span>About Us</span></a>
+                                    <%-- <ul class="mobile-sub-menu">
+                                    <li><a href="#">Service List</a></li>
+                                    <li><a href="service-details.html">Service Details</a></li>
+                                </ul>--%>
+                                </li>
+                                <li>
+                                    <a href="Project.aspx"><span>Projects</span></a>
+
+                                </li>
+
+                                <li>
+                                    <a href="Contact.aspx"><span>Contact</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Mobile Menu Nav -->
+                    </div>
+                    <!-- End Mobile Menu -->
+
+                    <!-- Start Mobile contact Info -->
+                    <div class="mobile-contact-info text-center">
+                        <ul class="social-link">
+                            <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100008113140565&mibextid=ZbWKwL"><i class="icofont-facebook"></i></a>
+                            </li>
+                            <li><a target="_blank" href="https://instagram.com/_sa.meer_khan?igshid=ZDdkNTZiNTM="><i class="icofont-instagram"></i></a>
+                            </li>
+                            <li><a target="_blank" href="https://wa.link/zw3xpo"><i class="icofont-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- End Mobile contact Info -->
+
+                </div>
+                <!-- End Offcanvas Mobile Menu Wrapper -->
+            </div>
+            <div class="offcanvas-overlay"></div>
+            <asp:ContentPlaceHolder ID="cntpsameer" runat="server">
+            </asp:ContentPlaceHolder>
+            <footer class="footer-section section-bg overflow-hidden pos-relative">
+                <div class="footer-inner-shape-top-left"></div>
+                <div class="footer-inner-shape-top-right"></div>
+                <div class="footer-section-top section-gap-t-165">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="section-content pos-relative text-center">
+                                    <span class="section-tag">Talk To Me</span>
+                                    <h2 class="section-title">Email Or Phone</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <%--<div class="footer-top-wrapper text-center">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="footer-newsletter">
+                                    <input type="email" placeholder="demo@example.com">
+                                    <button class="submit-btn" type="submit">Subscribe Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>--%>
+                    </div>
+                </div>
+                <style>
+                    .email {
+                        margin-top: -132px;
+                    }
+                </style>
+                <div class="footer-center section-gap-tb-165 email">
+                    <div class="container">
+                        <div class="row justify-content-between align-items-center mb-n5">
+                            <div class="col-auto mb-5">
+                                <div class="footer-single-info">
+                                    <a href="tel:9634030123" class="info-box">
+                                        <span class="icon"><i class="icofont-phone"></i></span>
+                                        <span class="text">9634030123</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-auto mb-5">
+                                <div class="footer-single-info">
+                                    <a href="mailto:sameerkhan14018@gmail.com" class="info-box">
+                                        <span class="icon"><i class="icofont-envelope-open"></i></span>
+                                        <span class="text">sameerkhan14018@gmail.com</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-auto mb-5">
+                                <div class="footer-single-info">
+                                    <ul class="social-link">
+                                        <li><a href="https://www.facebook.com/profile.php?id=100008113140565&mibextid=ZbWKwL" target="_blank"><i class="icofont-facebook"></i></a></li>
+                                        <li><a href="https://instagram.com/_sa.meer_khan?igshid=ZDdkNTZiNTM=" target="_blank"><i class="icofont-instagram"></i></a></li>
+                                        <li><a href="https://wa.link/zw3xpo" target="_blank"><i class="icofont-whatsapp"></i></a></li>
+                                        <%--<li><a href="https://sameerportfolio.bsite.net/" target="_blank"><i class="icofont-dribbble"></i></a></li>--%>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="row justify-content-center justify-content-md-between align-items-center flex-column-reverse flex-md-row">
+                            <div class="col-auto">
+                                <div class="footer-copyright">
+                                    <p class="copyright-text">&copy; 2023 <a href="Default.aspx">Sameer All Rights Reserved</a> Powered  <i class="icofont-heart"></i>By <a href="Default.aspx" target="_blank">Sameer</a> </p>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <a href="Default.aspx" class="footer-logo">
+                                    <div class="logo">
+                                        <img src="assets/images/logo/logo2.png" style="margin-right: -393px;" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <button class="material-scrolltop" type="button"></button>
+        </main>
+    </form>
+</body>
+<%--<script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+<script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+<script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+<script src="assets/js/plugins/swiper-bundle.min.js"></script>
+<script src="assets/js/plugins/jquery.appear.min.js"></script>
+<script src="assets/js/plugins/venobox.min.js"></script>
+<script src="assets/js/plugins/jquery.waypoints.js"></script>
+<script src="assets/js/plugins/images-loaded.min.js"></script>
+<script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+<script src="assets/js/plugins/counter.js"></script>
+<script src="assets/js/plugins/ajax-mail.js"></script>
+<script src="assets/js/plugins/material-scrolltop.js"></script>
+<script src="assets/js/vendor.min.js"></script>
+<script src="assets/js/plugins.min.js"></script>
+<script src="assets/js/main.js"></script>--%>
+     <!-- Minify Version -->
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+
+    <!--Main JS (Common Activation Codes)-->
+    <script src="assets/js/main.js"></script>
+    
+</html>
